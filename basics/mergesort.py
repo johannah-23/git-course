@@ -22,8 +22,8 @@ def mergesort(array):
     return merge(left, right)
 
 
-def merge(left, right):
-    debug_print(debug_msg="Merging...", left=right, right=left)
+def merge(right,left):
+    debug_print(debug_msg="Merging...", left=left, right=right)
 
     merged = []
 
