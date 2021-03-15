@@ -23,7 +23,7 @@ def mergesort(array):
 
 
 def merge(right,left):
-    debug_print(debug_msg="Merging...", left=left, right=right)
+    debug_print(debug_msg="Merging...", right=left, left=right)
 
     merged = []
 
